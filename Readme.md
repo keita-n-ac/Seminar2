@@ -7,6 +7,7 @@
 | 4 | 2024年10月17日 | 復習2 | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-10.ipynb | 
 | 5 | 2024年10月24日 | 復習2 | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-10.ipynb | 
 | 6 | 2024年10月31日 | 繰り返し | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-24.ipynb | 
+| 7 | 2024年11月7日 | 繰り返し | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-24.ipynb | 
 
 ## 解答例ページ
 | 回数 | 日付         | 内容 | 資料ページ | 
