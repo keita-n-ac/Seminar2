@@ -8,8 +8,8 @@
 | 4 | 2024年10月24日 | 復習2 | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-10.ipynb | 
 | 5 | 2024年10月31日 | 繰り返し | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-24.ipynb | 
 | 6 | 2024年11月7日 | 繰り返し | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-24.ipynb | 
-| - | 2024年11月14日 | 休講 | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-24.ipynb | 
-| 7 | 2024年11月21日 | ここまでのまとめ | https://github.com/keita-n-ac/Seminar2/blob/main/2024-report1.ipynb | 
+| - | 2024年11月14日 | 補講問題 | https://github.com/keita-n-ac/Seminar2/blob/main/2024-report1.ipynb | 
+| 7 | 2024年11月21日 | |  | 
 | 8 | 2024年11月28日 |  |  | 
 
 
