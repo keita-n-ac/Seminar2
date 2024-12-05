@@ -11,6 +11,7 @@
 | - | 2024年11月14日 | 補講問題 | https://github.com/keita-n-ac/Seminar2/blob/main/2024-report1.ipynb | 
 | 7 | 2024年11月21日 | 繰り返し（応用） | https://github.com/keita-n-ac/Seminar2/blob/main/2024-10-31.ipynb   | 
 | 8 | 2024年11月28日 | コレクション | https://github.com/keita-n-ac/Seminar2/blob/main/2024-11-21.ipynb | 
+| 9 | 2024年12月5日 | コレクション | https://github.com/keita-n-ac/Seminar2/blob/main/2024-11-28.ipynb | 
 
 
 ## 解答例ページ
