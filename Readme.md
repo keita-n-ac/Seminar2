@@ -15,6 +15,8 @@
 | 11 | 2024年12月12日 | ライブラリ | https://github.com/keita-n-ac/Seminar2/blob/main/2024-12-5.ipynb | 
 | 12 | 2025年1月9日 | データフレーム | https://github.com/keita-n-ac/Seminar2/blob/main/2024-12-12.ipynb | 
 | 13 | 2025年1月16日 | まとめ | https://github.com/keita-n-ac/Seminar2/blob/main/2024-report2.ipynb | 
+| 14 | 2025年1月25日 | まとめ | https://github.com/keita-n-ac/Seminar2/blob/main/2024-report2.ipynb | 
+| 15 | 2025年1月30日 | まとめ | https://github.com/keita-n-ac/Seminar2/blob/main/2024-report2.ipynb | 
 
 
 ## 解答例ページ
