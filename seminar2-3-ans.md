@@ -167,3 +167,61 @@ num = int(input('整数を入力してください'))
 if num % 2 == 0 and num % 3 == 0:
     print('6の倍数です')
 ```
+
+#### 20
+```python
+d = int(input('距離を入力してください'))
+if d >= 20 and d < 40:
+    print('中距離')
+```
+
+#### 21
+```python
+age = int(input('年齢を入力してください'))
+
+if age >= 0 and age <= 12:
+    print('子供')
+elif age >= 13 and age <= 19:
+    print('ティーン')
+elif age >= 20 and age <= 64:
+    print('大人')
+elif age >= 65:
+    print('高齢者')
+```
+
+#### 22
+```python
+num = int(input('整数を入力してください'))
+if num % 2 == 0 or num % 5 == 0:
+    print('OK')
+else:
+    print('NG')
+```
+
+#### 23
+```python
+m = int(input('月を入力してください'))
+if m == 2:
+    print('28日または29日')
+elif m == 1 or m == 3 or m == 5 or m == 7 or m == 8 or m == 10 or m == 12:
+    print('31日')
+elif m == 4 or m == 6 or m == 9 or m == 11:
+    print('30日')
+```
+
+#### 24
+```python
+a = int(input('整数1を入力してください'))
+b = int(input('整数2を入力してください'))
+c = int(input('整数3を入力してください'))
+
+if a == b and a == c:
+    print('Equal')
+```
+
+#### 25
+```python
+num = int(input('整数1を入力してください'))
+if num >= 10 and num <= 100:
+    print('10以上100以下を満たす')
+```
