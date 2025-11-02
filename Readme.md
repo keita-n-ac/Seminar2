@@ -9,6 +9,9 @@
 | 5 | 2025年10月30日 | 復習4 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-4-ex.md | 
 | 6 | 2025年11月6日 | 復習 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-4-ex.md | 
 | - | 2025年11月13日 | 休講 | 休講のため無し | 
+| 7 | 2025年11月13日 | 復習5 |  | 
+| 8 | 2025年11月13日 | 復習5 |  | 
+
 
 
 ## 解答例ページ
