@@ -169,3 +169,22 @@ print('min =', min)
 print('max =', max)
 print('sum =', sum)
 ```
+
+### 15
+```python
+K = int(input('Input integer: '))
+
+if K == 1:
+    print('0')
+elif K == 2:
+    print('0 1')
+elif K >= 3:
+    print('0 1 ', end='')
+    a1 = 0
+    a2 = 1
+    for i in range(K - 2):
+        a2, a1 = a1 + a2, a2
+        print(a2, end=' ')
+else:
+    print('Error')
+```
