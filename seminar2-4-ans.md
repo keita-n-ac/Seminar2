@@ -47,3 +47,17 @@ while True:
     print(num)
 ```
 
+### 6
+```python
+ac = 0
+count = 0
+
+while True:
+    num = int(input("Enter a number: "))
+    count += 1
+    ac += num
+    if ac > 30:
+        break
+
+print('sum =', ac , ', count =', count)
+```
