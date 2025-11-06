@@ -212,3 +212,24 @@ if isPrime == True:
 else:
     print('Composite')
 ```
+
+### 18
+```python
+N = int(input('Input positive integer: '))
+count = 0
+for i in range(1, N):
+    if i == 1:
+        continue
+    elif i == 2:
+        count += 1
+        continue
+    isPrime = True
+    for j in range(2, i):
+        if i % j == 0:
+            isPrime = False
+            break
+    if isPrime == True:
+        count += 1
+
+print(count)
+```
