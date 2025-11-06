@@ -190,3 +190,10 @@ for i in range(1, N+1):
         print(i)
 print('count =', count)
 ```
+
+### 16
+```python
+N = int(input('Input positive integer: '))
+for i in range(1, 10):
+    print(i, '×', N, '=', i * N)
+```
