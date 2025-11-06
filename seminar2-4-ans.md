@@ -140,15 +140,6 @@ for i in range(1, num + 1):
 
 ### 13
 ```python
-num = int(input('Input positive integer: '))
-for i in range(1, num + 1):
-    if i % 2 == 0:
-        continue
-    print(i)
-```
-
-### 14
-```python
 max = 0
 min = 0
 sum = 0
@@ -170,7 +161,7 @@ print('max =', max)
 print('sum =', sum)
 ```
 
-### 15
+### 14
 ```python
 K = int(input('Input integer: '))
 
@@ -187,4 +178,15 @@ elif K >= 3:
         print(a2, end=' ')
 else:
     print('Error')
+```
+
+### 15
+```python
+N = int(input('Input positive integer: '))
+count = 0
+for i in range(1, N+1):
+    if i % 3 == 0 and i % 7 == 0:
+        count += 1
+        print(i)
+print('count =', count)
 ```
