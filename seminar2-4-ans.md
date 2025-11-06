@@ -62,7 +62,7 @@ while True:
 print('sum =', ac , ', count =', count)
 ```
 
-### 6
+### 7
 ```python
 num = int(input('Input positive integer: '))
 keta = 0
@@ -73,4 +73,17 @@ if num > 0:
 else:
     print('Error')
 print(keta, '桁')
+```
+
+### 8
+```python
+num = int(input('Input positive integer: '))
+after = 0
+if num > 0:
+    while num > 0:
+        after = (after * 10) + (num % 10)
+        num //= 10
+else:
+    print('Error')
+print(after)
 ```
