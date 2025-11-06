@@ -197,3 +197,18 @@ N = int(input('Input positive integer: '))
 for i in range(1, 10):
     print(i, '×', N, '=', i * N)
 ```
+
+### 17
+```python
+N = int(input('Input positive integer: '))
+isPrime = True
+for i in range(2, N):
+    if N % i == 0:
+        isPrime = False
+        break
+
+if isPrime == True:
+    print('Prime')
+else:
+    print('Composite')
+```
