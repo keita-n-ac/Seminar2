@@ -38,3 +38,12 @@ for i in range(1, N+1):
 print(count)
 ```
 
+### 5
+```python
+while True:
+    num = int(input("Enter a number: "))
+    if num == 0:
+        break
+    print(num)
+```
+
