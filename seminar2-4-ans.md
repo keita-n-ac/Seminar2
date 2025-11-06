@@ -137,3 +137,35 @@ for i in range(1, num + 1):
         continue
     print(i)
 ```
+
+### 13
+```python
+num = int(input('Input positive integer: '))
+for i in range(1, num + 1):
+    if i % 2 == 0:
+        continue
+    print(i)
+```
+
+### 14
+```python
+max = 0
+min = 0
+sum = 0
+
+for i in range(5):
+    num = int(input('Input integer: '))
+    if i == 0:
+        max = num
+        min = num
+    else:
+        if num > max:
+            max = num
+        if num < min:
+            min = num
+    sum += num
+
+print('min =', min)
+print('max =', max)
+print('sum =', sum)
+```
