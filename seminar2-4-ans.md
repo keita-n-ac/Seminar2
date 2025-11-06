@@ -105,3 +105,35 @@ if before == after:
 else:
     print('No')
 ```
+
+### 10
+```python
+num = int(input('Input positive integer: '))
+count = 0
+
+for i in range(1, num + 1):
+    if num % i == 0:
+        count = count + 1
+        print(i)
+
+print('count =', count)
+```
+
+### 11
+```python
+num = int(input('Input positive integer: '))
+ans = 0
+for i in range(1, num + 1):
+    ans += i ** 3
+
+print(ans)
+```
+
+### 12
+```python
+num = int(input('Input positive integer: '))
+for i in range(1, num + 1):
+    if i % 2 == 0:
+        continue
+    print(i)
+```
