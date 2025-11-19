@@ -233,3 +233,97 @@ for i in range(1, N):
 
 print(count)
 ```
+
+### 19
+```python
+a = int(input('Input positive integer: '))
+b = int(input('Input positive integer: '))
+
+ans = 1
+i = 2
+while i <= a:
+    if a % i == 0 and b % i == 0:
+        ans = i
+    i += 1
+
+print(ans)
+```
+
+### 20
+```python
+s = input('Input string: ')
+N = int(input('Input positive integer: '))
+
+ans = ''
+for i in range(N):
+    ans += s
+print(ans)
+```
+
+### 21
+```python
+N = int(input('Input positive integer: '))
+ans = ''
+for i in range(N):
+    print('*' * (i+1))
+```
+
+### 22
+```python
+N = int(input('Input positive integer: '))
+ans = ''
+for i in range(N):
+    print(' ' * (N - i - 1) + '*' * (i + 1))
+```
+
+### 23
+```python
+N = int(input('Input positive integer: '))
+for i in range(N):
+    for j in range(i + 1):
+        print(j + 1, end='')
+    print()
+```
+
+### 24
+```python
+N = int(input('Input positive integer: '))
+for i in range(1, N+1):
+    if i % 15 == 0:
+        print('FizzBuzz')
+    elif i % 3 == 0:
+        print('Fizz')
+    elif i % 5 == 0:
+        print('Buzz')
+    else:
+        print(i)
+```
+
+### 25
+```python
+max_len = 0
+current_len = 0
+prev = 0
+
+while True:
+    n = int(input())  # 整数を1つ読み込む
+    if n == 0:
+        # 0 が来たら入力終了
+        break
+    if prev == 0:
+        # 最初の1個目
+        current_len = 1
+    else:
+        if n > prev:
+            # 前の値より大きい → 増加が続いている
+            current_len += 1
+        else:
+            # 増加が途切れた → 新しい区間を開始
+            current_len = 1
+    # 最大長を更新
+    if current_len > max_len:
+        max_len = current_len
+    prev = n  # 今読んだ値を「前の値」として覚えておく
+
+print('max_len =', max_len)
+```
