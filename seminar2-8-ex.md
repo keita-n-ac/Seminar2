@@ -1,7 +1,7 @@
 # Pythonライブラリ基礎 練習問題20選
 
 このドリルは、標準ライブラリ（math, random, calendar）、NumPy、Matplotlibの基礎的な使い方を確認するための練習問題です。
-内容は以下のURL（ https://github.com/keita-n-ac/ml-ex/blob/main/lec9.ipynb ）となります．
+内容は以下のURL（ https://github.com/keita-n-ac/ml-ex/blob/main/lec8.ipynb ）となります．
 
 ---
 
