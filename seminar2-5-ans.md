@@ -145,5 +145,46 @@ for i in range(n):
 
 ### 15
 ```python
+h = int(input('縦を入力してください'))
+w = int(input('横を入力してください'))
+for i in range(h):
+    for j in range(w):
+        if i == 0 or j == 0 or i == h-1 or j == w-1:
+            print('#', end='')
+        else:
+            print(i-1, end='')
+    print('')
+```
+
+### 16
+```python
+for i in range(10):
+    for j in range(12):
+        if j % 3 == 2:
+            print('B', end=' ')
+        else:
+            print('A', end=' ')
+    print('')
+```
+
+### 17
+```python
+n = int(input('サイズを入力してください'))
+
+for i in range(n):
+    for j in range(n):
+        if i == j and i == n//2 and n % 2 == 1:
+            print('×', end='')
+        elif i == j:
+            print('\\', end='')
+        elif (i+j) == n-1:
+            print('/', end='')
+        else:
+            print('.', end='')
+    print('')
+```
+
+### 18
+```python
 
 ```
