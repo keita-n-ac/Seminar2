@@ -94,12 +94,56 @@ for i in range(10):
 n = int(input('段数を入力してください'))
 
 for i in range(n):
-    for j in range(i+1):
+    for j in range(n - i + 1, 1, -1):
         print('*', end='')
     print('')
 ```
 
 ### 12
+```python
+for i in range(10):
+    for j in range(10):
+        print((i + j) % 10, end='')
+    print('')
+```
+
+### 13
+```python
+n = int(input('奇数を入力してください'))
+k = n // 2
+for i in range(k+1):
+    for j in range(k - i):
+        print(' ', end='')
+    for j in range(i * 2 + 1):
+        print('*', end='')
+    print('')
+for i in range(k):
+    for j in range(i+1):
+        print(' ', end='')
+    for j in range((k - i) * 2 - 1):
+        print('*', end='')
+    print('')
+```
+
+### 14
+```python
+n = int(input('自然数を入力してください'))
+for i in range(n):
+    for j in range(n - i):
+        print(' ', end='')
+    print('*', end='')
+    if i == 0:
+        print('')
+    else:
+        for j in range(2*i -1):
+            if i == n - 1:
+                print('*', end='')
+            else:
+                print(' ', end='')
+        print('*')
+```
+
+### 15
 ```python
 
 ```
