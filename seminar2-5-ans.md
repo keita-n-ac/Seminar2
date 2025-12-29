@@ -186,5 +186,41 @@ for i in range(n):
 
 ### 18
 ```python
+for i in range(9):
+    for j in range(9):
+        k = (i+1) * (j+1)
+        if k < 10:
+            print(' ', k, end='')
+        else:
+            print('', k, end='')
+    print()
+```
 
+### 19
+```python
+n = int(input('段数を入力してください'))
+
+for i in range(n):
+    for j in range(n - i):
+        print(' ', end='')
+    for j in range(i+1):
+        print(j+1, end='')
+    for j in range(i, 0, -1):
+        print(j, end='')
+    print()
+```
+
+### 20
+```python
+h = int(input('高さを入力してください'))
+w = int(input('幅を入力してください'))
+k = int(input('周期を入力してください'))
+
+for i in range(h):
+    for j in range(w):
+        if (i + j) % k == 0:
+            print('*', end='')
+        else:
+            print('.', end='')
+    print()
 ```
