@@ -23,4 +23,5 @@
 | 1 | 2025年9月25日 | 復習1 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-1-ans.md | 
 | 2 | 2025年10月2日 | 復習2 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-2-ans.md | 
 | 3 | 2025年10月16日 | 復習3 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-3-ans.md | 
-| 4 | 2025年11月6日 | 復習4 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-4-ans.md | 
+| 6 | 2025年11月6日 | 復習4 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-4-ans.md | 
+| 7 | 2025年11月20日 | 復習5 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-5-ans.md | 
