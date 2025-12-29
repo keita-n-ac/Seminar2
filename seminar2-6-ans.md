@@ -71,12 +71,22 @@ print(total/count)
 
 ### 09
 ```python
+data = []
 
+for i in range(5):
+    n = int(input('整数を入力してください'))
+    data.append(n)
+
+print(min(data))
+print(max(data))
 ```
 
 ### 10
 ```python
-
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(a[2:5])
+print(a[:7])
+print(a[4:])
 ```
 
 ### 11
