@@ -173,7 +173,7 @@ n = int(input('サイズを入力してください'))
 
 for i in range(n):
     for j in range(n):
-        if i == j and i == n//2 and n % 2 == 1:
+        if i == j and (i+j) == n-1:
             print('×', end='')
         elif i == j:
             print('\\', end='')
