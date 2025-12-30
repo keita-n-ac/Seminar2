@@ -84,12 +84,17 @@ print(a*10)
 
 ### 問題13
 ```python
-
+import numpy as np
+a = np.array([10, 20, 30])
+b = np.array([1, 2, 3])
+print(a - b)
 ```
 
 ### 問題14
 ```python
-
+import numpy as np
+a = np.array([4, 9, 16, 25])
+print(np.sqrt(a))
 ```
 
 ### 問題15
