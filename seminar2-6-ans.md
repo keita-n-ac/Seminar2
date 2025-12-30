@@ -91,50 +91,96 @@ print(a[4:])
 
 ### 11
 ```python
-
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(a[0:10:2])
+print(a[1:10:2])
 ```
 
 ### 12
 ```python
-
+b = [10, 20, 30, 40, 50]
+print(b[-1])
+print(b[-2])
+print(b[-3])
 ```
 
 ### 13
 ```python
-
+x = []
+for i in range(5):
+    n = int(input('整数を入力してください'))
+    x.append(n)
+print(x)
+print(x[::-1])
 ```
 
 ### 14
 ```python
+N = int(input('正の整数を入力してください'))
 
+nums = []
+for i in range(1, N+1):
+    nums.append(i)
+print(nums)
+print(sum(nums))
+print(sum(nums)/len(nums))
 ```
 
 ### 15
 ```python
+odds = []
+for i in range(1, 101, 2):
+    odds.append(i)
 
+print(odds)
+print(sum(odds))
+print(sum(odds)/len(odds))
 ```
 
 ### 16
 ```python
-
+scores = {'Tanaka': 80, 'Suzuki': 90, 'Sato': 75}
+print(scores['Tanaka'])
+print(scores['Suzuki'])
+print(scores['Sato'])
 ```
 
 ### 17
 ```python
-
+scores = {'Tanaka': 80, 'Suzuki': 90, 'Sato': 75}
+scores['Yamada'] = 85
+scores['Tanaka'] += 5
+print(scores)
 ```
 
 ### 18
 ```python
-
+prices = {'apple': 120, 'banana': 100, 'orange': 150}
+del prices['banana']
+print(prices)
 ```
 
 ### 19
 ```python
-
+words = {'apple': 'りんご', 'dog': 'いぬ', 'cat': 'ねこ'}
+s = input('英単語を入力してください')
+if s in words:
+    print(words[s])
+else:
+    print('その単語は登録されていません')
 ```
 
 ### 20
 ```python
+N = int(input('学生の人数を入力してください'))
+data = []
 
+for i in range(N):
+    s = int(input('点数を入力してください'))
+    data.append(s)
+
+print(data)
+print(max(data))
+print(min(data))
+print(sum(data)/len(data))
 ```
