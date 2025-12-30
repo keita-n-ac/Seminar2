@@ -7,17 +7,21 @@ print(math.sqrt(144))
 
 ### 問題2
 ```python
-
+import math as m
+print(m.pow(10, 2))
 ```
 
 ### 問題3
 ```python
-
+import random
+print(random.randint(10, 20))
 ```
 
 ### 問題4
 ```python
-
+import random
+fruits = ['apple', 'banana', 'cherry', 'grape']
+print(random.choice(fruits))
 ```
 
 ### 問題5
