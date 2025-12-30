@@ -99,30 +99,56 @@ print(np.sqrt(a))
 
 ### 問題15
 ```python
-
+import numpy as np
+a = np.array([-5, -2, 0, 3, 8])
+print(np.abs(a))
 ```
 
 ### 問題16
 ```python
-
+import numpy as np
+data = np.arange(20)
+print(data[5:10])
 ```
 
 ### 問題17
 ```python
-
+import numpy as np
+data = np.zeros(10)
+data[3:7] = 99
+print(data)
 ```
 
 ### 問題18
 ```python
-
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.arange(0, 10, 0.1)
+y = 2 * x
+plt.plot(x, y)
+plt.show()
 ```
 
 ### 問題19
 ```python
-
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.arange(0, 10, 0.1)
+y = 2 * x * x
+plt.xlabel('Time')
+plt.ylabel('Distance')
+plt.plot(x, y)
+plt.show()
 ```
 
 ### 問題20
 ```python
-
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.linspace(-5, 5, 100)
+y1 = x * x
+y2 = x * x * x
+plt.plot(x, y1)
+plt.plot(x, y2)
+plt.show()
 ```
