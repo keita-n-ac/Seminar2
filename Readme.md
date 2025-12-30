@@ -32,4 +32,4 @@
 | 10 | 2025年11月27日 | 新規内容1 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-7-ans.md | 
 | 11 | 2025年12月18日 | 新規内容2 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-8-ans.md | 
 | 12 | 2026年1月8日 | 新規内容3 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-9-ans.md | 
-| 15 | 2026年1月15日 | 新規内容4 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-10-ans.md | 
+| 15 | 2026年1月29日 | 新規内容4 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-10-ans.md | 
