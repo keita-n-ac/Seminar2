@@ -57,7 +57,7 @@ else:
 #### 7
 ```python
 score = int(input('点数を入力してください'))
-if num >= 60:
+if score >= 60:
     print('合格')
 else:
     print('不合格')
