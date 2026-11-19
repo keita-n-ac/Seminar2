@@ -4,6 +4,10 @@
 以下の問題は，コレクション（リスト構造・スライス・負のインデックス・sum/max/min・ディクショナリなど）の内容を理解しているかどうかを確認するための **プログラム作成問題** です。  
 それぞれ，1つのファイル（セル）に完結するスクリプトとして作成してください。  
 
+内容
+- https://github.com/keita-n-ac/ml-ex/blob/main/lec6.ipynb
+- https://github.com/keita-n-ac/ml-ex/blob/main/lec7.ipynb
+
 ---
 
 ## 問題1（リストの基本とインデックス）
