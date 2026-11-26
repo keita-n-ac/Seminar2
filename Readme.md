@@ -9,7 +9,8 @@
 | 6 | 2026年11月5日 | 復習5 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-5-ex.md | 
 | 7 | 2026年11月12日 | 復習6 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-6-ex.md | 
 | 8 | 2026年11月19日 | 復習6 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-6-ex.md | 
-| 8 | 2026年11月26日 | 新規1 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-7-ex.md | 
+| 9 | 2026年11月26日 | 新規1 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-7-ex.md | 
+| 10 | 2026年12月3日 | 新規1 | https://github.com/keita-n-ac/Seminar2/blob/main/seminar2-7-ex.md | 
 
 
 ## 解答例ページ
